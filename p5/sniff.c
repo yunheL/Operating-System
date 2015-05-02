@@ -49,22 +49,50 @@ main(int argc, char* argv[])
        printf("error: lseek failed\n");
   }
 
-  if (read(fd, dn, 3 * sizeof(struct dinode)) < 0)
+  if (read(fd, dn, 200 * sizeof(struct dinode)) < 0)
   {
         printf("error: read failed\n");
   }
 
   printf("inode0 is reserved. Not printing.\n");
-  dn++;
-  printf("inode1\n");
-  printdn(dn);
 
-  dn++;
-  printf("inode2\n");
-  printdn(dn);
+
+  int inode_cnt;
+  for(inode_cnt = 1; inode_cnt < 200; inode_cnt++)
+  {
+	dn++;
+	printf("inode%d\n", inode_cnt);
+	printdn(dn);
+  }
+
+/*
+	dn++;
+	printf("inode%d\n", 1);
+	printdn(dn);
+  
+	dn++;
+	printf("inode%d\n", 2);
+	printdn(dn);
+  
+	dn++;
+	printf("inode%d\n", 3);
+	printdn(dn);
+  
+	dn++;
+	printf("inode%d\n", 4);
+	printdn(dn);
+*/  
+
+
+
+
+
 
   return 0;
 
+
+
+  
 }
 
 

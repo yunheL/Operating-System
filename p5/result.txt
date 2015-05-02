@@ -1,0 +1,4384 @@
+=====================
+Superblock info:size = 1024
+ nblocks = 995
+ ninodes = 200
+=====================
+inode0 is reserved. Not printing.
+inode1
+=====================
+dinode info:type = 1
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 512
+Data block addresses(13 entries):
+addrs[0] = 29
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode2
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 1793
+Data block addresses(13 entries):
+addrs[0] = 30
+addrs[1] = 31
+addrs[2] = 32
+addrs[3] = 33
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode3
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9983
+Data block addresses(13 entries):
+addrs[0] = 34
+addrs[1] = 35
+addrs[2] = 36
+addrs[3] = 37
+addrs[4] = 38
+addrs[5] = 39
+addrs[6] = 40
+addrs[7] = 41
+addrs[8] = 42
+addrs[9] = 43
+addrs[10] = 44
+addrs[11] = 45
+addrs[12] = 46
+=====================
+inode4
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9464
+Data block addresses(13 entries):
+addrs[0] = 55
+addrs[1] = 56
+addrs[2] = 57
+addrs[3] = 58
+addrs[4] = 59
+addrs[5] = 60
+addrs[6] = 61
+addrs[7] = 62
+addrs[8] = 63
+addrs[9] = 64
+addrs[10] = 65
+addrs[11] = 66
+addrs[12] = 67
+=====================
+inode5
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 6145
+Data block addresses(13 entries):
+addrs[0] = 75
+addrs[1] = 76
+addrs[2] = 77
+addrs[3] = 78
+addrs[4] = 79
+addrs[5] = 80
+addrs[6] = 81
+addrs[7] = 82
+addrs[8] = 83
+addrs[9] = 84
+addrs[10] = 85
+addrs[11] = 86
+addrs[12] = 87
+=====================
+inode6
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 11155
+Data block addresses(13 entries):
+addrs[0] = 89
+addrs[1] = 90
+addrs[2] = 91
+addrs[3] = 92
+addrs[4] = 93
+addrs[5] = 94
+addrs[6] = 95
+addrs[7] = 96
+addrs[8] = 97
+addrs[9] = 98
+addrs[10] = 99
+addrs[11] = 100
+addrs[12] = 101
+=====================
+inode7
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9861
+Data block addresses(13 entries):
+addrs[0] = 112
+addrs[1] = 113
+addrs[2] = 114
+addrs[3] = 115
+addrs[4] = 116
+addrs[5] = 117
+addrs[6] = 118
+addrs[7] = 119
+addrs[8] = 120
+addrs[9] = 121
+addrs[10] = 122
+addrs[11] = 123
+addrs[12] = 124
+=====================
+inode8
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9476
+Data block addresses(13 entries):
+addrs[0] = 133
+addrs[1] = 134
+addrs[2] = 135
+addrs[3] = 136
+addrs[4] = 137
+addrs[5] = 138
+addrs[6] = 139
+addrs[7] = 140
+addrs[8] = 141
+addrs[9] = 142
+addrs[10] = 143
+addrs[11] = 144
+addrs[12] = 145
+=====================
+inode9
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9482
+Data block addresses(13 entries):
+addrs[0] = 153
+addrs[1] = 154
+addrs[2] = 155
+addrs[3] = 156
+addrs[4] = 157
+addrs[5] = 158
+addrs[6] = 159
+addrs[7] = 160
+addrs[8] = 161
+addrs[9] = 162
+addrs[10] = 163
+addrs[11] = 164
+addrs[12] = 165
+=====================
+inode10
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 11073
+Data block addresses(13 entries):
+addrs[0] = 173
+addrs[1] = 174
+addrs[2] = 175
+addrs[3] = 176
+addrs[4] = 177
+addrs[5] = 178
+addrs[6] = 179
+addrs[7] = 180
+addrs[8] = 181
+addrs[9] = 182
+addrs[10] = 183
+addrs[11] = 184
+addrs[12] = 185
+=====================
+inode11
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9545
+Data block addresses(13 entries):
+addrs[0] = 196
+addrs[1] = 197
+addrs[2] = 198
+addrs[3] = 199
+addrs[4] = 200
+addrs[5] = 201
+addrs[6] = 202
+addrs[7] = 203
+addrs[8] = 204
+addrs[9] = 205
+addrs[10] = 206
+addrs[11] = 207
+addrs[12] = 208
+=====================
+inode12
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9530
+Data block addresses(13 entries):
+addrs[0] = 216
+addrs[1] = 217
+addrs[2] = 218
+addrs[3] = 219
+addrs[4] = 220
+addrs[5] = 221
+addrs[6] = 222
+addrs[7] = 223
+addrs[8] = 224
+addrs[9] = 225
+addrs[10] = 226
+addrs[11] = 227
+addrs[12] = 228
+=====================
+inode13
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 17113
+Data block addresses(13 entries):
+addrs[0] = 236
+addrs[1] = 237
+addrs[2] = 238
+addrs[3] = 239
+addrs[4] = 240
+addrs[5] = 241
+addrs[6] = 242
+addrs[7] = 243
+addrs[8] = 244
+addrs[9] = 245
+addrs[10] = 246
+addrs[11] = 247
+addrs[12] = 248
+=====================
+inode14
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9704
+Data block addresses(13 entries):
+addrs[0] = 271
+addrs[1] = 272
+addrs[2] = 273
+addrs[3] = 274
+addrs[4] = 275
+addrs[5] = 276
+addrs[6] = 277
+addrs[7] = 278
+addrs[8] = 279
+addrs[9] = 280
+addrs[10] = 281
+addrs[11] = 282
+addrs[12] = 283
+=====================
+inode15
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9426
+Data block addresses(13 entries):
+addrs[0] = 291
+addrs[1] = 292
+addrs[2] = 293
+addrs[3] = 294
+addrs[4] = 295
+addrs[5] = 296
+addrs[6] = 297
+addrs[7] = 298
+addrs[8] = 299
+addrs[9] = 300
+addrs[10] = 301
+addrs[11] = 302
+addrs[12] = 303
+=====================
+inode16
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 35163
+Data block addresses(13 entries):
+addrs[0] = 311
+addrs[1] = 312
+addrs[2] = 313
+addrs[3] = 314
+addrs[4] = 315
+addrs[5] = 316
+addrs[6] = 317
+addrs[7] = 318
+addrs[8] = 319
+addrs[9] = 320
+addrs[10] = 321
+addrs[11] = 322
+addrs[12] = 323
+=====================
+inode17
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 10297
+Data block addresses(13 entries):
+addrs[0] = 381
+addrs[1] = 382
+addrs[2] = 383
+addrs[3] = 384
+addrs[4] = 385
+addrs[5] = 386
+addrs[6] = 387
+addrs[7] = 388
+addrs[8] = 389
+addrs[9] = 390
+addrs[10] = 391
+addrs[11] = 392
+addrs[12] = 393
+=====================
+inode18
+=====================
+dinode info:type = 2
+ major = 0
+ minor = 0
+ nlink = 1
+ size = 9274
+Data block addresses(13 entries):
+addrs[0] = 403
+addrs[1] = 404
+addrs[2] = 405
+addrs[3] = 406
+addrs[4] = 407
+addrs[5] = 408
+addrs[6] = 409
+addrs[7] = 410
+addrs[8] = 411
+addrs[9] = 412
+addrs[10] = 413
+addrs[11] = 414
+addrs[12] = 415
+=====================
+inode19
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode20
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode21
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode22
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode23
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode24
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode25
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode26
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode27
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode28
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode29
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode30
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode31
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode32
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode33
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode34
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode35
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode36
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode37
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode38
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode39
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode40
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode41
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode42
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode43
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode44
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode45
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode46
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode47
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode48
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode49
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode50
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode51
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode52
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode53
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode54
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode55
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode56
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode57
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode58
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode59
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode60
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode61
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode62
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode63
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode64
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode65
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode66
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode67
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode68
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode69
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode70
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode71
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode72
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode73
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode74
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode75
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode76
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode77
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode78
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode79
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode80
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode81
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode82
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode83
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode84
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode85
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode86
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode87
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode88
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode89
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode90
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode91
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode92
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode93
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode94
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode95
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode96
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode97
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode98
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode99
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode100
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode101
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode102
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode103
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode104
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode105
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode106
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode107
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode108
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode109
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode110
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode111
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode112
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode113
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode114
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode115
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode116
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode117
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode118
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode119
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode120
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode121
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode122
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode123
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode124
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode125
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode126
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode127
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode128
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode129
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode130
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode131
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode132
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode133
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode134
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode135
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode136
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode137
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode138
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode139
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode140
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode141
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode142
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode143
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode144
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode145
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode146
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode147
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode148
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode149
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode150
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode151
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode152
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode153
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode154
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode155
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode156
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode157
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode158
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode159
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode160
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode161
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode162
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode163
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode164
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode165
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode166
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode167
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode168
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode169
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode170
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode171
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode172
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode173
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode174
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode175
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode176
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode177
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode178
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode179
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode180
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode181
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode182
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode183
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode184
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode185
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode186
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode187
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode188
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode189
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode190
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode191
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode192
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode193
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode194
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode195
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode196
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode197
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode198
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
+inode199
+=====================
+dinode info:type = 0
+ major = 0
+ minor = 0
+ nlink = 0
+ size = 0
+Data block addresses(13 entries):
+addrs[0] = 0
+addrs[1] = 0
+addrs[2] = 0
+addrs[3] = 0
+addrs[4] = 0
+addrs[5] = 0
+addrs[6] = 0
+addrs[7] = 0
+addrs[8] = 0
+addrs[9] = 0
+addrs[10] = 0
+addrs[11] = 0
+addrs[12] = 0
+=====================
