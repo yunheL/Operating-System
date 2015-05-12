@@ -5,7 +5,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include "mymem.h"
+#include "myLib.h"
 
 #include <string.h>
 #include <assert.h>
@@ -71,14 +71,14 @@ void printDir(inode* anInode) {
 	int count = 0;
 	for (i = 0; i < 14; i++) {
 
-		if (anInode->ptr[i] == -1) {
+		if (anInode->ptr[i] <= -1) {
 			continue;
 		}
 
 		do {
 			dirEnt* oneDirEnt;
 			oneDirEnt = (dirEnt*) (malloc(sizeof(dirEnt)));
-			if (lseek(fd, anInode->ptr[i] + sizeof(dirEnt) * count, SEEK_SET)
+			if (lseek(fd, anInode->ptr[i] + (sizeof(dirEnt) * count), SEEK_SET)
 					< 0) {
 				printf("Error!\n");
 				exit(0);
@@ -88,39 +88,34 @@ void printDir(inode* anInode) {
 				exit(0);
 			}
 
-			if (oneDirEnt->inum == -1) {
+			if (oneDirEnt->inum <= -1) {
 				break;
 			}
 			count = count + 1;
 			if (getType(oneDirEnt->inum) == MFS_REGULAR_FILE) {
-				printf("\n\t [inum = %d] %s", oneDirEnt->inum, oneDirEnt->name);
+				printf("%s\n", oneDirEnt->name);
 			} else {
-				printf("\n\t [inum = %d] %s/", oneDirEnt->inum, oneDirEnt->name);
+				printf("%s/\n", oneDirEnt->name);
 			}
 		} while (1);
 	}
-	printf("\n");
 }
 
 void find(inode* anInode, char* fName, int work) {
 	if (work == 1 && strcmp(fName, "") == 0) {
 		//print root
 		printDir(anInode);
-		exit(0);
+		return;
 	} else if (work == 0 && strcmp(fName, "") == 0) {
 		//printing empty file
 		printf("Error!\n");
 		exit(0);
 	}
 
-	printf("SRG: path is %s\n", fName);
-
 	char * pch;
-	//printf("SRG: Splitting string \"%s\" into tokens:\n", fName);
 	pch = strtok(fName, "/");
 	int curInum;
 	while (pch != NULL) {
-		printf("searching for %s\n", pch);
 
 		int i = 0;
 		int count = 0;
@@ -128,7 +123,7 @@ void find(inode* anInode, char* fName, int work) {
 
 		for (i = 0; i < 14; i++) {
 
-			if (anInode->ptr[i] == -1) {
+			if (anInode->ptr[i] <= -1) {
 				continue;
 			}
 
@@ -151,11 +146,8 @@ void find(inode* anInode, char* fName, int work) {
 				count = count + 1;
 
 				if (strcmp(pch, oneDirEnt->name) == 0) {
-					printf("%s found at inum=%d\n", pch, oneDirEnt->inum);
 
 					int address = first_iMap->inodePtr[oneDirEnt->inum];
-					//inode* anInode;
-					//anInode = (inode*) (malloc(sizeof(inode)));
 
 					if (lseek(fd, address, SEEK_SET) < 0) {
 						printf("Error!\n");
@@ -181,8 +173,6 @@ void find(inode* anInode, char* fName, int work) {
 		pch = strtok(NULL, "/");
 	}
 
-	printf("%s found at inum=%d\n", fName, curInum);
-
 	if (work == 1) {
 		printDir(anInode);
 	} else {
@@ -190,7 +180,16 @@ void find(inode* anInode, char* fName, int work) {
 	}
 }
 
+
 void ls(char* path, char* img) {
+	if (doStuff(img) == -1) {
+		printf("Error!\n");
+		exit(0);
+	}
+	find(rootInode, path, 1);
+}
+
+void cat(char* path, char* img) {
 
 	if (doStuff(img) == -1) {
 		printf("Error!\n");
@@ -199,22 +198,62 @@ void ls(char* path, char* img) {
 	find(rootInode, path, 0);
 }
 
-int main(int argc, char* argv[]) {
 
-	if (doStuff("example.img") == -1) {
-		return -1;
+int main(int argc, char* argv[]) {
+	if(strcmp(argv[1],"ls")==0){
+		ls(argv[2],argv[3]);
+	}else if(strcmp(argv[1],"cat")==0){
+		cat(argv[2],argv[3]);
+	}else {
+		printf("Error!\n");
 	}
 
-	printf("\n ****** SRG: ROOT INODE\n\n");
-	//printInode(rootInode);
-	printDir(rootInode);
+/*
+	char l1[] = "";
+	printf("\n\nSRG TEST: ls - %s\n", l1);
+	ls(l1, "example.img");
 
-	printf("\n ****** SRG: FIND code\n\n");
-	//char a[] = "nested/directory";
-	//find(rootInode, a, 1);
-	//char a[] = "/code/a.out";
-	char a[] = "/code/helloworld.c";
-	find(rootInode, a, 0);
+	char l2[] = "/";
+	printf("\n\nSRG TEST: ls - %s\n", l2);
+	ls(l2, "example.img");
+
+	char l3[] = "/dir";
+	printf("\n\nSRG TEST: ls - %s\n", l3);
+	ls(l3, "example.img");
+
+	char l4[] = "/code/";
+	printf("\n\nSRG TEST: ls - %s\n", l4);
+	ls(l4, "example.img");
+
+	char l5[] = "/nested/";
+	printf("\n\nSRG TEST: ls - %s\n", l5);
+	ls(l5, "example.img");
+
+	char l6[] = "/nested/directory/example";
+	printf("\n\nSRG TEST: ls - %s\n", l6);
+	ls(l6, "example.img");
+
+	char l7[] = "/nested/directory";
+	printf("\n\nSRG TEST: ls - %s\n", l7);
+	ls(l7, "example.img");
+
+
+	char c0[] = "/code/a.out";
+	printf("\n\nSRG TEST: cat - %s\n", c0);
+	cat(c0, "example.img");
+
+	char c1[] = "/code/helloworld.c";
+	printf("\n\nSRG TEST: cat - %s\n", c1);
+	cat(c1, "example.img");
+
+	char c2[] = "/veryveryveryveryveryveryveryveryveryverylengthyfilename.txt";
+	printf("\n\nSRG TEST: cat - %s\n", c2);
+	cat(c2, "example.img");
+
+
+	char c3[] = "/nested/directory/example/sample.c";
+	printf("\n\nSRG TEST: cat - %s\n", c3);
+	cat(c3, "example.img");*/
 
 	return 0;
 
@@ -226,17 +265,8 @@ checkpoint* readCheckPoint(int fd) {
 	sb = (checkpoint*) (malloc(sizeof(checkpoint)));
 
 	if (read(fd, sb, sizeof(checkpoint)) < 0) {
-		printf("ERROR: checkpoint cast failed\n");
-
-	} /*else {
-	 printf("INFO: checkpoint casted\n");
-	 int i = 0;
-	 printf("\tINFO [CR info]  size = %d\n", sb->size);
-	 for (i = 0; i <= 0; i++) {
-	 //for (i = 0; i < INODEPIECES; i++) {
-	 printf("\tINFO [CR info]  iMapPtr[%d] = %d\n", i, sb->iMapPtr[i]);
-	 }
-	 }*/
+		printf("Error!\n");
+	}
 
 	return sb;
 }
@@ -250,9 +280,7 @@ inodeMap* readFirstIMap(int fd, int firstIMapAddress) {
 	} else {
 		if (read(fd, first_iMap, sizeof(inodeMap)) < 0) {
 			printf("ERROR: read failed @ readFirstIMap\n");
-		} /*else {
-		 printf("INFO: first inodeMap casted\n");
-		 }*/
+		}
 	}
 	return first_iMap;
 }
@@ -325,7 +353,6 @@ char** str_split(char* a_str, const char a_delim) {
 	delim[0] = a_delim;
 	delim[1] = 0;
 
-	/* Count how many elements will be extracted. */
 	while (*tmp) {
 		if (a_delim == *tmp) {
 			count++;
@@ -334,11 +361,7 @@ char** str_split(char* a_str, const char a_delim) {
 		tmp++;
 	}
 
-	/* Add space for trailing token. */
 	count += last_comma < (a_str + strlen(a_str) - 1);
-
-	/* Add space for terminating null string so caller
-	 knows where the list of returned strings ends. */
 	count++;
 
 	result = malloc(sizeof(char*) * count);
@@ -364,14 +387,13 @@ int doStuff(char * img) {
 	//fd = readFile("example.img");
 	fd = readFile(img);
 	if (fd < 0) {
-		printf("ERROR: SRG YOU ARE IN TROUBLE!");
 		printf("Error!\n");
 		return -1;
 	}
 
 	sb = readCheckPoint(fd);
 	if (sb == NULL) {
-		printf("ERROR: SRG YOU ARE IN TROUBLE!");
+		printf("Error!\n");
 		return -1;
 	}
 	//printCheckPoint(sb);
@@ -379,16 +401,16 @@ int doStuff(char * img) {
 	firstIMapAddress = sb->iMapPtr[0];
 	first_iMap = readFirstIMap(fd, firstIMapAddress);
 	if (first_iMap == NULL) {
-		printf("ERROR: SRG YOU ARE IN TROUBLE!");
+		printf("Error!\n");
 		return -1;
 	}
 
-	printInodeMap(first_iMap);
+	//printInodeMap(first_iMap);
 
 	// 0th inode is root!
 	rootInode = getRootInode(fd, first_iMap->inodePtr[0]);
 	if (rootInode == NULL) {
-		printf("ERROR: SRG YOU ARE IN TROUBLE!");
+		printf("Error!\n");
 		return -1;
 	}
 	return 0;

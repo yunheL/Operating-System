@@ -1,0 +1,18 @@
+Name: Saikat Gomes
+CSL-ID: saikat
+Name: Yunhe Liu
+CSL-ID: yunhe
+(Leave the second name and ID blank if working alone)
+(Do NOT suffix your CSL IDs with @cs.wisc.edu, the ID alone is sufficient)
+
+Implementation Details:
+mem_init(): use mmap to create a new region of memory mapping. Then build two different datastructures for slab allocator (25% of region) and nextfit allocator(75% of region).
+
+mem_alloc(): allocate memory using slab allocator and nextfit allocator.
+
+mem_free(): free alloated memory. After freeing a chunk memory, coalesce it to aviod fragmentation.
+
+mem_dump: print out memory status for debug.
+
+thanks!
+
