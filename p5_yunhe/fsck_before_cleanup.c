@@ -27,19 +27,22 @@ int delete_entry_with_inode(int inum, struct dinode* inodes);
 int 
 main(int argc, char *argv[]){
 	assert((fs_img_fd = open (argv[1], O_RDWR)) > 0);
+	assert(lseek(fs_img_fd, BSIZE, SEEK_SET) >= 0);
   	struct superblock sb;
-	assert(pread(fs_img_fd, &sb, BSIZE, BSIZE) ==  BSIZE);
+	assert(read(fs_img_fd, &sb, sizeof(struct superblock)) ==  sizeof(struct superblock));
 	superblock_reader(&sb);
 
 	struct dinode inodes[200];
-	assert(pread(fs_img_fd, inodes, 200 * sizeof(struct dinode), 2 * BSIZE) == 200 * sizeof(struct dinode));
+	assert(lseek(fs_img_fd, BSIZE * 2, SEEK_SET) > 0);
+	assert(read(fs_img_fd, inodes, 200 * sizeof(struct dinode)) == 200 * sizeof(struct dinode));
 	char bitmap_from_inode[BSIZE];
 	bitmap_generator(inodes,bitmap_from_inode);
 	dir_checker(inodes);
 	inodes_checker(inodes);
  	
 	char bitmap[BSIZE];
-	assert(pread(fs_img_fd, bitmap, BSIZE, 28* BSIZE) ==  BSIZE);
+ 	assert(lseek(fs_img_fd, BSIZE * 28, SEEK_SET) > 0);
+	assert(read(fs_img_fd, bitmap, BSIZE) ==  BSIZE);
 	
 	/**int i;
 	printf("on disk bitmap: \n");
@@ -54,6 +57,7 @@ main(int argc, char *argv[]){
 	printf("\n");
 	**/
 	if(memcmp(bitmap,bitmap_from_inode,BSIZE)){
+		printf("repairing bitmap~\n");
 		//write the correct version bitmap to the fs img
 		assert(pwrite(fs_img_fd, bitmap_from_inode, BSIZE, BSIZE * 28) == BSIZE);
 	}	
@@ -62,10 +66,10 @@ main(int argc, char *argv[]){
 
 int 
 set_bit(char *bitmap, int bit, int val){
+	//TODO
 	if(val == 0){
-		fprintf(stderr,"Hey this is not working, but I think~ you don't need this :)\n");
-		//bitmap[bit/8] = bitmap[bit/8] & (int)(pow(2,8) -1 - pow(2,(8 - bit%8 +1)));
-		//NEED TO FIX
+		bitmap[bit/8] = bitmap[bit/8] & (int)(pow(2,8) -1 - pow(2,(8 - bit%8 +1)));
+		//NEED TO FIX, not working
 	}
 	else if(val == 1){
 		bitmap[bit/8] = bitmap[bit/8] |  (1 << (bit % 8));
@@ -108,9 +112,9 @@ dir_checker(struct dinode* inodes){
 			}
 			int j;
 			for(j = 0; (j < 32 * num_ent_block) && entries[j].inum != 0; j++){
-				//printf("for the %d entry ", j);
-				//printf("inode num is %d ,", entries[j].inum);
-				//printf("name of the file is %s \n", entries[j].name);
+				printf("for the %d entry ", j);
+				printf("inode num is %d ,", entries[j].inum);
+				printf("name of the file is %s \n", entries[j].name);
 			}
 			//if(!strcmp(entries[0].name,".")){
 				sprintf(entries[0].name, ".");
@@ -121,6 +125,7 @@ dir_checker(struct dinode* inodes){
 				entries[1].inum = find_parent_dir(i,inodes);
 			//}
 			pwrite(fs_img_fd, &entries, BSIZE, BSIZE * inode.addrs[0]);
+			printf("\n");
 		}
 	}
 	return 0;
@@ -180,6 +185,7 @@ delete_entry_with_inode(int inum, struct dinode* inodes){
 }
 int 
 inodes_checker(struct dinode* inodes){
+	//TODO check the data filed in each inode, skip the first one
 	int i;
 	for(i = 1; i < num_inode; i++){
 		struct dinode inode = inodes[i];
@@ -194,10 +200,12 @@ inodes_checker(struct dinode* inodes){
 			int counted_link = link_counter(i,inodes);
 			if(inode.nlink != counted_link){	
 				if(counted_link == 0){
+					printf("At least I'm trying to fix\n");
 					int num_ent_block = inodes[1].size / BSIZE;
 					if(inodes[1].size % BSIZE != 0)
 						num_ent_block++;
 					struct dirent entries[32*num_ent_block];
+					printf("how many Root DIRENT? %d \n",32*num_ent_block);
 					int n;
 					for(n = 0; n < num_ent_block; n++){
 						pread(fs_img_fd, &entries[32*n], BSIZE, BSIZE * inodes[1].addrs[n]);
@@ -210,6 +218,7 @@ inodes_checker(struct dinode* inodes){
 							inodes[entries[j].inum].size += sizeof(struct dirent);
 							int k;
 							for(k = 0; k < 32; k++){
+								printf("Aha, inside lost+found %d entry\n", k);
 								if(entries_x[k].inum == 0){
 									entries_x[k].inum = i;
 									sprintf(entries_x[k].name, "lost_%d",i);
@@ -217,7 +226,13 @@ inodes_checker(struct dinode* inodes){
 								}
 							}
 							assert(pwrite(fs_img_fd,entries_x,BSIZE,BSIZE * inodes[entries[j].inum].addrs[0]) == BSIZE);
-							
+							//after fix check
+							struct dirent eee[32];
+							assert(pread(fs_img_fd,eee,BSIZE,BSIZE * inodes[entries[j].inum].addrs[0]) == BSIZE);
+							int x;
+							for(x=0; x<32  && eee[x].inum != 0;x++){
+								printf("name: %s , inum %d \n",eee[x].name,eee[x].inum);
+							}
 
 
 						}	
@@ -225,6 +240,7 @@ inodes_checker(struct dinode* inodes){
 				}
 				else{
 					inodes[i].nlink = counted_link;
+					//printf("Aha\n");
 				}
 			}
 		}
@@ -253,6 +269,7 @@ link_counter(int inum, struct dinode* inodes){
 			for(j = 0; (j < 32 * num_ent_block) && entries[j].inum != 0;  j++){
 				if((entries[j].inum == inum) && (strcmp(entries[j].name,"."))){
 					counter++;
+					//printf("increament counter beacuse at dir with inum %d found an entry with name %s with inum %d\n",i,entries[j].name,inum);
 				}
 			}
 		}
@@ -260,7 +277,7 @@ link_counter(int inum, struct dinode* inodes){
 	return counter;
 }
 int
-bitmap_generator(struct dinode *inodes, char *bitmap){
+ bitmap_generator(struct dinode *inodes, char *bitmap){
 	// Init bitmap
 	memset(bitmap,0,BSIZE);
 	int i;
@@ -268,14 +285,19 @@ bitmap_generator(struct dinode *inodes, char *bitmap){
 		set_bit(bitmap,i,1);
 	} 
 	//traverse the list of inodes, but skip the first one
+	
 	for(i = 1; i < 200; i++){
 		struct dinode inode = inodes[i];
 		if(inode.type == 1 || inode.type == 2){
+			//TODO
+			//printf("Currently check the inode #%d, type is %d, and size is %d\n",i,inode.type,inode.size);
 			int j;
 			for(j = 0; j < NDIRECT + 1 && inode.addrs[j] != 0; j++){
 				//printf("inode #%d address %d : %d\n",i,j,inode.addrs[j]);
 				set_bit(bitmap,inode.addrs[j],1);
 				if(j == NDIRECT){
+					//printf("HEY HEY\n");
+					//printf("THE NUMBRE IS %d \n",BSIZE/sizeof(uint));
 					uint addrs[BSIZE/sizeof(uint)];
 					assert(pread(fs_img_fd, addrs, BSIZE, BSIZE * inode.addrs[NDIRECT]) == BSIZE);
 					int k;
