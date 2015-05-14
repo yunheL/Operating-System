@@ -77,7 +77,7 @@ void printDir(inode* anInode) {
 			continue;
 		}
 
-		printf("@for\n");
+		//printf("@for\n");
 
 		do {
 			dirEnt* oneDirEnt;
@@ -122,7 +122,7 @@ void find(inode* anInode, char* fName, int work) {
 	int curInum;
 	while (pch != NULL) {
 
-		printf("while!\n");
+		//printf("while!\n");
 
 		int i = 0;
 		int count = 0;
@@ -319,39 +319,39 @@ inode* getRootInode(int fd, int aInodePtr) {
 }
 
 void printInode(inode* anInode) {
-	printf("\nINFO [iNode info]");
-	printf("\n\tsize= %d\n\ttype=%d", anInode->size, anInode->type);
+	//printf("\nINFO [iNode info]");
+	//printf("\n\tsize= %d\n\ttype=%d", anInode->size, anInode->type);
 	int j = 0;
 	for (j = 0; j < 14; j++) {
 		if (anInode->ptr[j] == -1) {
 			continue;
 		}
-		printf("\n\tptr[%d]=%d", j, anInode->ptr[j]);
+		//printf("\n\tptr[%d]=%d", j, anInode->ptr[j]);
 	}
-	printf("\n\n");
+	//printf("\n\n");
 
 }
 
 void printInodeMap(inodeMap* anInodeMap) {
 	int i = 0;
-	printf("\nINFO [iNodeMap info]");
+	//printf("\nINFO [iNodeMap info]");
 	for (i = 0; i < 16; i++) {
 		if (anInodeMap->inodePtr[i] == -1) {
 			continue;
 		}
-		printf("\n\tinodePtr[%d] = %d", i, anInodeMap->inodePtr[i]);
+		//printf("\n\tinodePtr[%d] = %d", i, anInodeMap->inodePtr[i]);
 	}
-	printf("\n\n");
+	//printf("\n\n");
 
 }
 void printCheckPoint(checkpoint * aCheckPoint) {
 	int i = 0;
-	printf("\nINFO [checkPoint info]");
-	printf("\n\tsize = %d", aCheckPoint->size);
+	//printf("\nINFO [checkPoint info]");
+	//printf("\n\tsize = %d", aCheckPoint->size);
 	for (i = 0; i < INODEPIECES; i++) {
-		printf("\n\tiMapPtr[%d] = %d", i, aCheckPoint->iMapPtr[i]);
+		//printf("\n\tiMapPtr[%d] = %d", i, aCheckPoint->iMapPtr[i]);
 	}
-	printf("\n\n");
+	//printf("\n\n");
 }
 
 char** str_split(char* a_str, const char a_delim) {
@@ -415,7 +415,7 @@ int doStuff(char * img) {
 		return -1;
 	}
 
-	printInodeMap(first_iMap);
+	//printInodeMap(first_iMap);
 
 
 	/*firstIMapAddress2 = sb->iMapPtr[1];
