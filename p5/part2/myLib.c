@@ -14,6 +14,8 @@ int fd;
 checkpoint* sb;
 int firstIMapAddress;
 inodeMap* first_iMap;
+int firstIMapAddress2;
+inodeMap* first_iMap2;
 inode* rootInode;
 char** str_split(char*, const char);
 int doStuff(char*);
@@ -75,6 +77,8 @@ void printDir(inode* anInode) {
 			continue;
 		}
 
+		printf("@for\n");
+
 		do {
 			dirEnt* oneDirEnt;
 			oneDirEnt = (dirEnt*) (malloc(sizeof(dirEnt)));
@@ -89,6 +93,7 @@ void printDir(inode* anInode) {
 			}
 
 			if (oneDirEnt->inum <= -1) {
+				//break;
 				break;
 			}
 			count = count + 1;
@@ -116,6 +121,8 @@ void find(inode* anInode, char* fName, int work) {
 	pch = strtok(fName, "/");
 	int curInum;
 	while (pch != NULL) {
+
+		printf("while!\n");
 
 		int i = 0;
 		int count = 0;
@@ -174,8 +181,11 @@ void find(inode* anInode, char* fName, int work) {
 	}
 
 	if (work == 1) {
+
+		//printf("p_dir!\n");
 		printDir(anInode);
 	} else {
+		//printf("p_file!\n");
 		printFile(anInode);
 	}
 }
@@ -405,7 +415,17 @@ int doStuff(char * img) {
 		return -1;
 	}
 
-	//printInodeMap(first_iMap);
+	printInodeMap(first_iMap);
+
+
+	/*firstIMapAddress2 = sb->iMapPtr[1];
+	first_iMap2 = readFirstIMap(fd, firstIMapAddress2);
+	if (first_iMap2 == NULL) {
+		printf("Error!\n");
+		return -1;
+	}
+	printInodeMap(first_iMap2);*/
+
 
 	// 0th inode is root!
 	rootInode = getRootInode(fd, first_iMap->inodePtr[0]);
